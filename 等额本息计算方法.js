@@ -1,3 +1,4 @@
+// 可直接复制代码去 Chrome Console 运行
 function calculate(贷款额, 贷款月数, 还款阶段, { silence = false } = {}) {
   const table = {};
   const 总计还款 = { 累计月供: 0, 累计本金: 0, 累计利息: 0 };
